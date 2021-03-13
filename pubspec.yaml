@@ -1,0 +1,25 @@
+name: code_metrics_bug
+description: MRE for dart_code_metrics analyzer bug
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_local_notifications: ^4.0.1+2
+  shared_preferences: ^2.0.4
+  url_launcher: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  dart_code_metrics: ^2.4.1
+
+flutter:
+
+  uses-material-design: true
